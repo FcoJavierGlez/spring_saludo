@@ -9,7 +9,6 @@ public class Saludo {
 	}
 	
 	public String mensajeSaludo() {
-		
 		switch (idioma) {
 			case "Castellano":
 				return "Bienvenido";
@@ -20,6 +19,5 @@ public class Saludo {
 			default:
 				return "Bienvenido";
 		}
-		
 	}
 }
